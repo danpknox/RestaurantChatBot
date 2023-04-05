@@ -25,6 +25,7 @@ def reservation():
         x = input(f"The available times are {reservation_times} What time would you like? Type 'none' if none ")
         if x in reservation_times:
             print(f"You are all set for {x}")
+            #remove time entered from list of available reservation times
             reservation_times.remove(x)
             z = True
         elif x == "none":
