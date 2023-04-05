@@ -1,1 +1,1 @@
-# RestaurantChatBot
+Simple rule based chat bot meant to act as a customer service provider for imaginary cafe. Provides user with menu and is able to make reservations, take orders, etc. Incorporates python functions, while loops, and dictionary.
