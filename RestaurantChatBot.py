@@ -47,6 +47,7 @@ def takeout():
         i = input(f"Our menu consists of {menu} and our daily special is {dailyspecial} What would you like? Type 'done' when done ")
         if i in menu or i == dailyspecial:
             print(f"{i} has been added to your order!")
+            #add food item entered to order list
             order.append(i)
         elif i == "done":
             z = True
